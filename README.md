@@ -41,17 +41,15 @@ A full-featured Laravel 12 application with complete CRUD operations for product
 - **PHP**: ^8.2
 - **Authentication**: Laravel Breeze
 - **API**: Laravel Sanctum
-- **Frontend**: Blade Templates, Alpine.js, Tailwind CSS
-- **Database**: SQLite (default) / MySQL / PostgreSQL
-- **Build Tool**: Vite
-- **Asset Bundler**: Laravel Vite Plugin
+- **Frontend**: Blade Templates
+- **Database**: MySQL
 
 ## 📦 Requirements
 
 - PHP >= 8.2
 - Composer
 - Node.js & NPM
-- SQLite / MySQL / PostgreSQL
+- MySQL
 
 ## 🚀 Installation
 
@@ -87,20 +85,13 @@ php artisan key:generate
 Edit `.env` file with your database credentials:
 
 ```env
-DB_CONNECTION=sqlite
-# For MySQL, use:
-# DB_CONNECTION=mysql
-# DB_HOST=127.0.0.1
-# DB_PORT=3306
-# DB_DATABASE=laravel_crud
-# DB_USERNAME=root
-# DB_PASSWORD=
-```
 
-For SQLite, create the database file:
-
-```bash
-touch database/database.sqlite
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laravel_crud
+DB_USERNAME=root
+DB_PASSWORD=
 ```
 
 ### 5. Run Migrations and Seeders
@@ -174,7 +165,7 @@ Visit: `http://localhost:8000`
 
 ## 📖 Usage
 
-### Web Interface
+### Web Interface (No css/design yet)
 
 #### For All Authenticated Users
 
